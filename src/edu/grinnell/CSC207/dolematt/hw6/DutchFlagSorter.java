@@ -39,7 +39,7 @@ public class DutchFlagSorter {
 		flag[white] = temp2;
 		blue--;
 	    }
-	    // if it's not red or blue, check if it's not white and throw an
+	    // if it's not red or blue, check if it's white and throw an
 	    // exception if it isn't
 	    else if (flag[white].compareToIgnoreCase("white") != 0) {
 		throw new Exception(
